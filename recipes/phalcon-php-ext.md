@@ -14,7 +14,7 @@ rm -rf /root/phalcon-src
 ```
 
 
-Create a file named `/etc/php.d/imagick.ini` with the following content, pay attention to the extensions path:
+Create a file named `/etc/php.d/phalcon.ini` with the following content, pay attention to the extensions path:
 ```
 extension = "/usr/local/php/lib/php/extensions/no-debug-non-zts-20160303/phalcon.so"
 ```
