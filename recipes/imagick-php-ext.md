@@ -15,3 +15,8 @@ cp /root/imagick-src/modules/imagick.so /usr/local/php/lib/php/extensions/no-deb
 cd /root
 rm -rf /root/imagick-src
 ```
+
+Create a file named `/etc/php.d/imagick.ini` with the following content, again remembering to pay attention to the extensions path:
+```
+extension = "/usr/local/php/lib/php/extensions/no-debug-non-zts-20160303/imagick.so"
+```
