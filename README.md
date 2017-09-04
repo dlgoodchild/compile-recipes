@@ -2,4 +2,4 @@
 Recipes for compiling various libraries, usually for use in a docker container.
 
 ## What Recipes?
-- Wkhtmltopdf
+- [ImageMagick](recipes/imagemagick.md)
