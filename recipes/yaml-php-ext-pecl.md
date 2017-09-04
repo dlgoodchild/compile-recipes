@@ -15,3 +15,8 @@ make install
 cd /root
 rm -rf /root/pecl-yaml-ext
 ```
+
+Create a file named /etc/php.d/yaml.ini with the following content, pay attention to the extensions path:
+```
+extension = "/usr/local/php/lib/php/extensions/no-debug-non-zts-20160303/yaml.so"
+```
