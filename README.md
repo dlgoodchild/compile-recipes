@@ -2,6 +2,7 @@
 Recipes for compiling various libraries, usually for use in a docker container.
 
 ## What Recipes?
+- [Bison](recipes/bison.md)
 - [ImageMagick](recipes/imagemagick.md)
 - [IMagick PHP Extension](recipes/imagick-php-ext.md)
 - [LibSass and SASS](recipes/libsass.md)
