@@ -6,24 +6,22 @@ Bison
 This is tried and tested on Ubuntu 14.x and 16.x
 ```
 apt-get update && apt-get install -y --no-install-recommends \
-		curl \
-		git \
-		memcached \
-		snmp \
-		vim \
-		wget \
-		xz-utils \
-		unzip cmake libqt4-dev \
-		build-essential \
-		libfcgi-dev \
-		libfcgi0ldbl \
-		libjpeg62-dbg \
-		libmcrypt-dev \
-		libssl-dev \
-		libc-client2007e \
-		libc-client2007e-dev \
-		libldb-dev \
-		libldap2-dev
+  curl \
+  git \
+  memcached \
+  snmp \
+  xz-utils \
+  unzip cmake libqt4-dev \
+  build-essential \
+  libfcgi-dev \
+  libfcgi0ldbl \
+  libjpeg62-dbg \
+  libmcrypt-dev \
+  libssl-dev \
+  libc-client2007e \
+  libc-client2007e-dev \
+  libldb-dev \
+  libldap2-dev
 apt-get build-dep -y php5
 
 cd /root/php
